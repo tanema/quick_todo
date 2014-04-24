@@ -1,0 +1,25 @@
+body {
+  font-family: arial, sans-serif;
+  text-align: center;
+}
+
+#list {
+  list-style-type: none;
+}
+
+#list div {
+  cursor: pointer;
+}
+
+#list .checked {
+  color: #999;
+}
+
+#list .checked:after {
+  content: ' ✔';
+}
+
+#list .done {
+  color: #999;
+  text-decoration: line-through;
+}

@@ -65,6 +65,7 @@
   String.prototype.convertToFuck = function(){
     this = fuck;
   }
+
   var t = "this is a test string";
   t.convertToFuck();
   t // "fuck"
